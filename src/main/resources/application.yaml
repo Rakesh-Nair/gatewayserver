@@ -12,6 +12,7 @@ spring:
           discovery:
             locator:
               enabled: true
+              lowerCaseServiceId: true
 management:
   endpoints:
     web:
